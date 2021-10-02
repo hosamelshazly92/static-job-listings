@@ -6,8 +6,9 @@
 
 body {
   background-color: #f0fafb;
-  font-size: 16px;
+  font-size: 14px;
   color: #5da5a4;
+  font-family: "Sora", sans-serif;
 }
 
 .container {
@@ -23,6 +24,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  position: relative;
 }
 
 .tags {
@@ -30,5 +35,22 @@ body {
   background-color: #fff;
   border-radius: 6px;
   display: flex;
-  padding: 18px;
+  padding: 18px 32px;
+  position: absolute;
+  top: 82px;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 1%), 0 2px 32px rgb(0 0 0 / 4%);
+}
+
+.link {
+  margin-left: auto;
+  border: none;
+  background: none;
+  color: #5da5a4;
+  text-decoration: underline;
+  transition: all 0.4s ease-in-out;
+}
+
+.link:hover {
+  color: #2c3a3b;
+  cursor: pointer;
 }

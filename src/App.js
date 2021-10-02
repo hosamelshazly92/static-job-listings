@@ -1,4 +1,4 @@
-import { container, header, tags } from "./App.module.css";
+import { container, header, tags, link } from "./App.module.css";
 import Tag from "./components/Tag/Tag";
 
 function App() {
@@ -8,6 +8,8 @@ function App() {
         <div className={tags}>
           <Tag />
           <Tag />
+
+          <button className={link}>Clear</button>
         </div>
       </div>
     </div>
