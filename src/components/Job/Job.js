@@ -10,6 +10,7 @@ import {
   text,
   labels,
   labelText,
+  seperator,
 } from "./Job.module.css";
 import { v4 as uuid } from "uuid";
 
@@ -33,6 +34,8 @@ const Job = ({ job }) => {
           <p className={text}>{job.location}</p>
         </div>
       </div>
+
+      <hr className={seperator} />
 
       <div className={labels}>
         <p className={labelText}>{job.role}</p>

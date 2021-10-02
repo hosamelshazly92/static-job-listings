@@ -2,10 +2,17 @@
   display: flex;
   width: 860px;
   background-color: #fff;
-  border-radius: 6px;
+  border-radius: 4px;
   padding: 18px 32px;
   box-shadow: 0 1px 2px rgb(0 0 0 / 1%), 0 2px 32px rgb(0 0 0 / 4%);
   margin-bottom: 24px;
+  border-left: 3px solid #fff;
+  transition: all 0.4s ease-in-out;
+}
+
+.container:hover {
+  cursor: pointer;
+  border-left: 3px solid #5da5a4;
 }
 
 .avatar {
@@ -88,4 +95,34 @@
   background: #5da5a4;
   color: #fff;
   cursor: pointer;
+}
+
+.seperator {
+  display: none;
+}
+
+@media (max-width: 860px) {
+  .container {
+    width: calc(100% - 32px);
+    flex-direction: column;
+  }
+
+  .section {
+    margin: 8px 0;
+  }
+
+  .seperator {
+    display: block;
+    border: 1px solid #cccccc78;
+    margin: 8px 0;
+  }
+
+  .labels {
+    flex-wrap: wrap;
+  }
+
+  .labelText {
+    margin: 8px 0;
+    margin-right: 10px;
+  }
 }

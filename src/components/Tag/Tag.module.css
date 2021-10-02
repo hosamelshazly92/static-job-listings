@@ -31,3 +31,10 @@
   background-color: #2c3a3b;
   cursor: pointer;
 }
+
+@media (max-width: 860px) {
+  .container {
+    margin: 4px 0;
+    margin-right: 8px;
+  }
+}
