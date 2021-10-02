@@ -1,0 +1,91 @@
+.container {
+  display: flex;
+  width: 860px;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 18px 32px;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 1%), 0 2px 32px rgb(0 0 0 / 4%);
+  margin-bottom: 24px;
+}
+
+.avatar {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 18px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.companyText {
+  font-weight: 400;
+}
+
+.newLabel {
+  margin-left: 16px;
+  background: #5da5a4;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 12px;
+}
+
+.featuredLabel {
+  margin-left: 16px;
+  background: #2c3a3b;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 4px 10px;
+  border-radius: 12px;
+}
+
+.positionText {
+  margin: 8px 0;
+  font-size: 16px;
+  font-weight: 600;
+  color: #2c3a3b;
+  transition: all 0.4s ease-in-out;
+}
+
+.positionText:hover {
+  color: #5da5a4;
+  cursor: pointer;
+}
+
+.text {
+  color: #aaa;
+  margin-right: 16px;
+  font-size: 12px;
+}
+
+.labels {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.labelText {
+  margin-left: 10px;
+  background: #f0fafb;
+  padding: 6px;
+  border-radius: 4px;
+  font-size: 12px;
+  transition: all 0.4s ease-in-out;
+}
+
+.labelText:hover {
+  background: #5da5a4;
+  color: #fff;
+  cursor: pointer;
+}
