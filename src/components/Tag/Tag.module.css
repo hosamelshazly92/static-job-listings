@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+}
+
+.nam {
+  padding: 8px;
+  background-color: #f1f8f8;
+  border-radius: 6px 0 0 6px;
+}
